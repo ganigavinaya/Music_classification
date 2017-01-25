@@ -19,6 +19,7 @@ The main.py file takes input.csv as the training set and the testFile.csv is use
 The results are written in output.txt
 
 Steps followed:
+
 [1]Create Bag of words of input.csv using pandas
 
 [2]Create Bag of words of testFile.csv using pandas
