@@ -1,4 +1,3 @@
-Input file:
          genre                                               song
 0          Pop  You gotta go and get angry at all of my honest...
 1  Hip Hop/Rap  Just gonna stand there and watch me burn But t...
@@ -7,19 +6,18 @@ Input file:
 4         Rock  Lately, I've been, I've been losing sleep Drea...
 5         Rock  I was left to my own devices\nMany days fell a...
 6      Country  You may think that I'm talking foolish You've ...
-7          Pop  Come on, come on, turn the radio on It's Frida...
 Output from Naive Bayes Multi Normal:
-['Rock' 'Rock' 'Hip Hop/Rap' 'Rock' 'Rock' 'Rock' 'Rock' 'Rock']
-accuracy: 0.375
+['Rock' 'Rock' 'Hip Hop/Rap' 'Rock' 'Rock' 'Rock' 'Rock']
+accuracy: 0.428571428571
 
 Output from Naive Bayes Multi RE:
-['R&B' 'Rock' 'Hip Hop/Rap' 'R&B' 'Rock' 'Rock' 'Country' 'Rock']
-accuracy: 0.5
+['Pop' 'Rock' 'Hip Hop/Rap' 'R&B' 'Rock' 'Rock' 'Country']
+accuracy: 0.714285714286
 
 Output from SVC Normal:
-['Rock' 'Hip Hop/Rap' 'Hip Hop/Rap' 'Rock' 'Rock' 'Rock' 'Rock' 'Rock']
-accuracy: 0.5
+['Rock' 'Hip Hop/Rap' 'Hip Hop/Rap' 'Rock' 'Rock' 'Rock' 'Rock']
+accuracy: 0.571428571429
 
 Output from SVC RE:
-['Rock' 'Hip Hop/Rap' 'Hip Hop/Rap' 'Pop' 'Pop' 'Rock' 'Country' 'Country']
-accuracy: 0.625
+['Pop' 'Hip Hop/Rap' 'Hip Hop/Rap' 'Pop' 'Pop' 'Rock' 'Country']
+accuracy: 0.857142857143
