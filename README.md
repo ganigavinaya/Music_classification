@@ -1,5 +1,5 @@
 # Music_classification
-NLP/ML Project to songs based on lyrics:
+NLP/ML Project to classify songs based on lyrics:
 
 Automatic classification of music based on lyrics in the field of NLP. 
 This study investigates the implications of classifying a song based on machine learning techniques specifically, 
