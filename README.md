@@ -20,11 +20,19 @@ The results are written in output.txt
 
 Steps followed:
 [1]Create Bag of words of input.csv using pandas
+
 [2]Create Bag of words of testFile.csv using pandas
+
 [3]Remove any numbers or space in input or testFile
+
 [4]Create vectors wit CountVectorizer  (simultaneously input is stemmed using PorterStemmer)
+
 [5]fir and transform training file
+
 [6]transform test file
+
 [7]resample training data using RandomOverSampler (imbalanced-learn python library)
+
 [8]Try to fit NaiveBayes
+
 [9]Try to fit SVC
