@@ -28,7 +28,7 @@ Steps followed:
 
 [4]Create vectors wit CountVectorizer  (simultaneously input is stemmed using PorterStemmer)
 
-[5]fir and transform training file
+[5]fit and transform training file
 
 [6]transform test file
 
